@@ -7,7 +7,7 @@
 
 ## Examples
 
-* [Storing & Fetching Objects](examples/storing-and-fetching-objects.md)
+* [Storing Item Arrays & Fetching It](examples/storing-and-fetching-objects.md)
 
 ## Methods
 
