@@ -1,6 +1,6 @@
 ### .set\(ID, data\) {#set}
 
-> **Input:    
+> **Input:      
 >    **ID -&gt; String  
 >    data -&gt; Any \(obj, array, number, string, etc.\)
 >
@@ -19,7 +19,7 @@ db.set('uniqueID', data).then(i => {
 
 ### .fetch\(ID\) {#fetch}
 
-> **Input:  
+> **Input:    
 >    **_none_
 >
 > **Returns: **Promise&lt;data&gt;

@@ -2,7 +2,8 @@
 
 ## Overview
 
-* [Documentation](README.md)
+* [Introduction](README.md)
+* [Table Of Contents](table-of-contents.md)
 
 ## Methods
 
