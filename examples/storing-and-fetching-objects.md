@@ -1,6 +1,6 @@
 ### Storing Item Arrays & Fetching It
 
-_This example stores an item in an array, then fetches it later on._
+_This example stores items in an array, then fetches it later on._
 
 ---
 
@@ -23,7 +23,7 @@ db.fetch('items').then(i => { // Fetch the items array from the database
     /* [ { name: 'Wood', ID: 2, description: 'Great for floors!', icon: 'icons/wood.png' }, 
          { name: 'Stone', ID: 1, description: 'An impassable grey solid object.', icon: 'icons/stone.png' } ] */
     console.log(i[0].name) // 'Wood'
-    
+
     for (var obj in i) {
         console.log(obj[i]); // Returns every object in the array
     } 
