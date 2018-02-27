@@ -7,6 +7,5 @@
 ## Methods
 
 * [.set\(ID, data\)](methods.md)
-
-## .set\(ID, data\)
+* [.fetch\(ID\)](methods.md )
 
