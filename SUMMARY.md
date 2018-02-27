@@ -2,9 +2,10 @@
 
 ## Overview
 
-* [Quick.db Documentation](README.md)
+* [Documentation](README.md)
 
 ## Methods
 
-* [Defining Methods](methods.md)
+* [.set\(ID, data\)](methods.md)
+* [.fetch\(ID\)](fetchid.md)
 

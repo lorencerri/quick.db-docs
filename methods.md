@@ -1,30 +1,19 @@
-# Defining Methods
+### .set\(ID, data\)
 
-Methods allow you to smoothly display code examples in different languages.
-
-{% method %}
-## My first method
-
-My first method exposes how to print a message in JavaScript and Go.
-
-{% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
+> **Input:  
+>    **ID -&gt; String  
+>    data -&gt; Any \(obj, array, number, string, etc.\)
+>
+> **Returns: **Promise&lt;updatedData&gt;
 
 ```js
-console.log('My first method');
+let data = { username: 'TrueXPixels', balance: 100 };
+db.set('uniqueID', data).then(i => {
+    console.log(typeof i) // 'object'
+    console.log(i); // { username: 'TrueXPixels', balance: 100 }
+    console.log(i.username); // 'TrueXPixels'
+})
 ```
 
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
 
-```go
-fmt.Println("My first method")
-```
 
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
-```
-{% endmethod %}
