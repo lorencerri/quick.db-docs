@@ -1,9 +1,9 @@
-### .delete\(ID\) {#set}
+### .delete\(ID\) {#delete}
 
-> **Input:            
+> **Input:                
 >    **ID -&gt; String
 >
-> **Returns: **Boolean
+> **Returns: **Boolean \(If successfully deleted\)
 
 ```js
 let data = { username: 'TrueXPixels', balance: 100 };

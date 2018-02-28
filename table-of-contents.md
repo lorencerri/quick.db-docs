@@ -14,3 +14,5 @@
 
 [**.fetch\(uniqueID\)**](/fetchid.md) - _Fetches the data using the uniqueID you assigned earlier_
 
+[**.delete\(ID\)**](/deleteid.md) - _Removes the _
+

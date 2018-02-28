@@ -7,8 +7,11 @@
 
 ## Examples
 
-* [Storing, Updating, & Fetching A Number](examples/storing-updating-and-fetching-a-number.md)
-* [Storing Item Arrays & Fetching It](examples/storing-and-fetching-objects.md)
+* [Beginner](examples/beginner.md)
+  * [Storing, Updating, & Fetching A Number](examples/beginner/storing-updating-and-fetching-a-number.md)
+* [Intermediate](examples/intermediate.md)
+  * [Storing Item Array & Fetching It](examples/intermediate/storing-item-array-and-fetching-it.md)
+* [Advanced](examples/advanced.md)
 
 ## Methods
 
