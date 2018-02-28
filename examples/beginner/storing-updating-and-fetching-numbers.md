@@ -23,7 +23,7 @@ db.add('userBalance', 100).then(i => console.log(i, typeof i)); // 100 'number'
 // Remember, .subtract() also returns the updated object
 db.subtract('userBalance', 25).then(i => console.log(i, typeof i)); // 75 'number'
 
-// Fetch Final Number
+// Fetches object @ ID: 'userBalance'
 db.fetch('userBalance').then(i => { // Fetches the data @ the ID: 'userBalance'
     console.log(typeof i); // 'number'
     console.log(i); // 75

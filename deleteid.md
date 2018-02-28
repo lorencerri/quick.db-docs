@@ -1,9 +1,9 @@
 ### .delete\(ID\) {#delete}
 
-> **Input:                  
+> **Input:                        
 >    **ID -&gt; String
 >
-> **Returns: **Boolean \(If successfully deleted\)
+> **Returns: **Promise&lt;boolean&gt; _\(If successfully deleted\)_
 
 ```js
 let data = { username: 'TrueXPixels', balance: 100 };
