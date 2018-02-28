@@ -5,14 +5,14 @@ _This example takes a starting number, then changes it a bit, and finally fetche
 ---
 
 ```js
-// Require Package, we always need to do this when using packages.
+// Require Package, we always need to do this when using packages
 const db = require('quick.db');
 
 // Define Starting Value
-db.set('userBalance', 0); // This sets the number 0, to the ID: 'userBalance', so it can be fetched using the ID later on.
+db.set('userBalance', 0); // This sets the number 0, to the ID: 'userBalance', so it can be fetched using the ID later on
 // When using numbers, you can just .add() or .subtract(), no need to define it as 0 first
 
-// Log Current Balance - When fetching, we supply it an ID to direct to the associated data.
+// Log Current Balance - When fetching, we supply it an ID to direct to the associated data
 db.fetch('userBalance').then(i => console.log(i, typeof i)); // 0 'number'
 
 // Adds 100 to the existing number @ ID: 'userBalance' [Which is currently 0]
