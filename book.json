@@ -1,6 +1,7 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-api", "custom-favicon" ],
     "pluginsConfig": {
+        "favicon": "favicon.ico"
         "theme-api": {
             "languages": [
                 {
