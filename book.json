@@ -4,7 +4,7 @@
         "favicon": "favicon.ico"
         "theme-flowai": {
             "styles": {
-        "website": "styles/website.css"
+                "website": "website.css"
             }
         }
     }
