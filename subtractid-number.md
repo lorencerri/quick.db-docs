@@ -1,6 +1,6 @@
 ### .subtract\(ID, number\) {#subtract}
 
-> **Input:                                      
+> **Input:                                        
 >    **ID -&gt; String  
 >    number -&gt; Number
 >
@@ -22,7 +22,7 @@ db.subtract('uniqueID', 50).then(i => console.log(i)); // 25
 db.fetch('uniqueID').then(i => {
     console.log(typeof i); // 'number'
     console.log(i); // 150
-});
+})
 ```
 
 ---
