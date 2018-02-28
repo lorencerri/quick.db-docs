@@ -14,4 +14,5 @@
 
 * [.set\(ID, data\)](methods.md)
 * [.fetch\(ID\)](fetchid.md)
+* [.delete\(ID\)](deleteid.md)
 
