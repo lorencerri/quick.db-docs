@@ -8,7 +8,7 @@
     },
     "scripts": {
         "files": [
-            "./myscript.js"
+            "./script.js"
         ]
     }
 }
