@@ -5,6 +5,7 @@
 * [Introduction](README.md)
 * [Table Of Contents](table-of-contents.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
+* [Projects Using Quick.db](projects-using-quickdb.md)
 
 ## Examples
 

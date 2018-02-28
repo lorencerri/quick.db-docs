@@ -28,9 +28,9 @@ Quick.db
 
 This package is meant to provide an easy way to create and use a database, \*\*all data is stored persistently\*\*, and comes with a \*\*queue system to prevent database locking\*\*.
 
-\*Over \*\*133\*\* public programs use \*\*Quick.db\*\* as a dependent!\* \[Source\]\([https://github.com/TrueXPixels/quick.db/network/dependents\](https://github.com/TrueXPixels/quick.db/network/dependents\)\)
+\*Over \*\*133\*\* public programs use \*\*Quick.db\*\* as a dependent!\* \[Source\]\([https://github.com/TrueXPixels/quick.db/network/dependents\](https://github.com/TrueXPixels/quick.db/network/dependents%29\)
 
-\*\*Want to provide feedback to help improve \*Quick.db\*?\*\* \[Click Here!\]\([https://goo.gl/forms/KgjhQdWrztUfwHLB2\](https://goo.gl/forms/KgjhQdWrztUfwHLB2\)\)
+\*\*Want to provide feedback to help improve \*Quick.db\*?\*\* \[Click Here!\]\([https://goo.gl/forms/KgjhQdWrztUfwHLB2\](https://goo.gl/forms/KgjhQdWrztUfwHLB2%29\)
 
 ---
 
@@ -292,7 +292,7 @@ console.log\(typeof i\) // 'number'
 
 &gt; How do I submit feedback, or suggest new features?
 
-You can find a form \[here\]\([https://goo.gl/forms/KgjhQdWrztUfwHLB2\](https://goo.gl/forms/KgjhQdWrztUfwHLB2\)\).
+You can find a form \[here\]\([https://goo.gl/forms/KgjhQdWrztUfwHLB2\](https://goo.gl/forms/KgjhQdWrztUfwHLB2%29\).
 
 &gt; What happens if I fetch an ID without assigning any data to it.
 
@@ -318,7 +318,7 @@ Okay, well it wasn't actually frequently asked but I wanted to plug it anyways. 
 
 \*\*\[Plexi Development\]\([https://discord.io/plexidev\)\*\*](https://discord.io/plexidev%29**) - \*A majority of the server features on Plexi Development's Discord use Quick.db to store data.\*
 
-\*Over \*\*133\*\* public programs also use \*\*Quick.db\*\* as a dependent!\* \[Source\]\([https://github.com/TrueXPixels/quick.db/network/dependents\](https://github.com/TrueXPixels/quick.db/network/dependents\)\)
+\*Over \*\*133\*\* public programs also use \*\*Quick.db\*\* as a dependent!\* \[Source\]\([https://github.com/TrueXPixels/quick.db/network/dependents](https://github.com/TrueXPixels/quick.db/network/dependents%29\)
 
 ---
 
