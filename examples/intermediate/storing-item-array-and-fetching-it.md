@@ -18,7 +18,7 @@ db.push('items', wood); // Push the item into the 'items' array in the database
 
 // Fetch Items
 db.fetch('items').then(i => { // Fetch the items array from the database
-    console.log(typeof i); // 'object' 
+    console.log(typeof i); // 'object'
     console.log(i); 
     /* [ { name: 'Wood', ID: 2, description: 'Great for floors!', icon: 'icons/wood.png' }, 
         { name: 'Stone', ID: 1, description: 'An impassable grey solid object.', icon: 'icons/stone.png' } ] */
