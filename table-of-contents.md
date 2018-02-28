@@ -1,12 +1,10 @@
-### Table Of Contents
+### Table Of Contents {#table}
 
 ---
 
 ###### Overview
 
 [**Frequently Asked Questions**](/frequently-asked-questions.md) - _List of frequently asked questions_
-
-
 
 ---
 
