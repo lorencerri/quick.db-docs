@@ -7,6 +7,7 @@
 
 ## Examples
 
+* [Storing, Updating, & Fetching A Number](examples/storing-updating-and-fetching-a-number.md)
 * [Storing Item Arrays & Fetching It](examples/storing-and-fetching-objects.md)
 
 ## Methods
