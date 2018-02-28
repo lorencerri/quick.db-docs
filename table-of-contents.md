@@ -6,6 +6,8 @@
 
 [**Frequently Asked Questions**](/frequently-asked-questions.md) - _List of frequently asked questions_
 
+[**Projects Using Quick.db**](/projects-using-quickdb.md)** **- _List of projects using quick.db_
+
 ---
 
 ###### Examples
