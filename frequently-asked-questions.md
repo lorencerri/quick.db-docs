@@ -1,4 +1,4 @@
-### Frequently Asked Questions
+### Frequently Asked Questions {#faq}
 
 > How do I submit feedback, or suggest new features?
 
@@ -11,8 +11,6 @@ It will return \`NULL\`.
 > Where can I get support for Quick.db?
 
 You can check out our Discord [here](https://discord.io/plexidev), in addition to support we have a great community!
-
-
 
 > Is there a tutorial on Quick.db?
 
