@@ -4,6 +4,8 @@ _This example will go over using the **{ target } **option in the functions._
 
 ---
 
+The target option **directs the function to the specified item **instead of changing/updating/fetching the entire object.
+
 ```js
 // Require Package
 const db = require('quick.db');
