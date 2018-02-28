@@ -1,6 +1,6 @@
 ### .add\(ID, number, _\[options\]_\) {#add}
 
-> **Input:                                          
+> **Input:                                            
 >    **ID -&gt; String  
 >    number -&gt; Number  
 >    _options -&gt; Object **\(optional\)**_
@@ -44,7 +44,6 @@ db.set('uniqueID', data).then(i => {
 
 db.add('uniqueID', 50, { target: '.balance' }).then(i => {
     console.log(i); // { username: 'TrueXPixels', balance: 150 }
-
 })
 ```
 

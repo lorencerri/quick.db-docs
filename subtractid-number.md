@@ -1,6 +1,6 @@
 ### .subtract\(ID, number\) {#subtract}
 
-> **Input:                                            
+> **Input:                                              
 >    **ID -&gt; String  
 >    number -&gt; Number
 >
@@ -43,7 +43,6 @@ db.set('uniqueID', data).then(i => {
 
 db.subtract('uniqueID', 50, { target: '.balance' }).then(i => {
     console.log(i); // { username: 'TrueXPixels', balance: 50 }
-
 })
 ```
 
