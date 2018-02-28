@@ -22,7 +22,7 @@ var db = require('quick.db')
 
 ---
 
-# [Table Of Contents](/table-of-contents.md)
+#### View [Table Of Contents](/table-of-contents.md)
 
 
 
