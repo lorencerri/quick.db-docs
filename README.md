@@ -4,43 +4,27 @@ _This package is meant to provide an easy way to create and use a database, **al
 
 ---
 
-&lt;div align="center"&gt;
+**Note: **_This package is under development and will be updated frequently._
+
+
+
+**Installation**
 
 ```
-&lt;p&gt;
-
-    &lt;a href="https://discord.io/plexidev"&gt;&lt;img src="https://discordapp.com/api/guilds/343572980351107077/embed.png" alt="Discord Server" /&gt;&lt;/a&gt;
-
-    &lt;a href="http://www.youtube.com/subscription\_center?add\_user=TrueXPixels"&gt;&lt;img src="https://img.shields.io/badge/Subscribe-YouTube-red.svg" alt="YouTube Channel" /&gt;&lt;/a&gt;       
-
-&lt;/p&gt;
-```
-
-&lt;/div&gt;
-
-\*\*Note:\*\* This package is under development and will be updated frequently.
-
-This package is meant to provide an easy way to create and use a database, \*\*all data is stored persistently\*\*, and comes with a \*\*queue system to prevent database locking\*\*.
-
----
-
-\*\*Installation\*\*
-
-\`\`\`
-
 npm install quick.db
+```
 
-\`\`\`
 
-\*\*Require Package\*\*
 
-\`\`\`
+**Require Package**
 
-var db = require\('quick.db'\)
+```
+var db = require('quick.db')
+```
 
-\`\`\`
 
-\*\[v3.x/v4.x to v5.x Migration Guide\]\([https://github.com/TrueXPixels/quick.db/blob/master/MIGRATION.md\)\*](https://github.com/TrueXPixels/quick.db/blob/master/MIGRATION.md%29*)
+
+[_v3.x/v4.x to v5.x Migration Guide_](https://github.com/TrueXPixels/quick.db/blob/master/MIGRATION.md)
 
 ---
 
