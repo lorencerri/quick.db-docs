@@ -1,6 +1,6 @@
 ### .set\(ID, data,_ \[options\]_\) {#set}
 
-> **Input:              
+> **Input:                
 >    **ID -&gt; String  
 >    data -&gt; Any \(obj, array, number, string, etc.  
 >    _options -&gt; Object **\(optional\)**_  
@@ -20,11 +20,11 @@ db.set('uniqueID', data).then(i => {
 
 #### Options
 
-> **Parameter: **target  
-> **Type: **String  
-> **Default: **_none  
-> _**Description: **Sets the data to the target instead of the entire object.  
-> **Example:**
+> * **Parameter: **target
+> * **Type: **String
+> * **Default: **_none  _
+> * **Description: **Sets the data to the target instead of the entire object.
+> * **Example:**
 
 ```js
 let data = { username: 'TrueXPixels', discrim: '0001' };
