@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-coderdojosushicard" ],
+    "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
