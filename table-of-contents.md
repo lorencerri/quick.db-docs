@@ -24,3 +24,9 @@
 
 [**.delete\(ID\)**](/deleteid.md) - _Removes the data associated with ID supplied_
 
+[**.add\(ID, number\)**](/addid-number.md)** **- _Adds the target amount to an existing number_
+
+[**.subtract\(ID, number\)**](/subtractid-number.md) - _Subtracts the target amount from an existing number_
+
+[**.push\(ID, data\)**](/pushid-data.md) - Pushes an item to a pre-existing array in the database
+

@@ -1,6 +1,6 @@
-### .push\(ID, data\) {#set}
+### .push\(ID, data\) {#push}
 
-> **Input:            
+> **Input:              
 >    **ID -&gt; String  
 >    data -&gt; Any \(obj, array, number, string, etc.\)
 >
@@ -26,7 +26,6 @@ db.fetch('uniqueID').then(i => {
     console.log(i); // [100, 40, 500, 20, 10, 'Hello World!']
     console.log(i[0]); // 100
 })
-
 ```
 
 ---

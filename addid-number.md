@@ -1,6 +1,6 @@
-### .add\(ID, number\) {#delete}
+### .add\(ID, number\) {#add}
 
-> **Input:                                  
+> **Input:                                    
 >    **ID -&gt; String  
 >    number -&gt; Number
 >

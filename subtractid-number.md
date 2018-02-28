@@ -1,6 +1,6 @@
-### .subtract\(ID, number\) {#delete}
+### .subtract\(ID, number\) {#subtract}
 
-> **Input:                                    
+> **Input:                                      
 >    **ID -&gt; String  
 >    number -&gt; Number
 >
