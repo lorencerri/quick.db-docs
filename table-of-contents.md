@@ -6,7 +6,7 @@
 
 [**Storing, Updating, & Fetching A Number**](/examples/storing-updating-and-fetching-a-number.md) - _This example takes a starting number, then changes it a bit, and finally fetches it later on._
 
-[**Storing Item Arrays & Fetching It**](/examples/storing-and-fetching-objects.md) - _This example _
+[**Storing Item Arrays & Fetching It**](/examples/storing-and-fetching-objects.md) hes  _Tchis example stores items in an array, then _
 
 ###### Methods
 
