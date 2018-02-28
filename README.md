@@ -26,8 +26,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  
-> > **[**Discord**](https://discord.io/plexidev)**  
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /  
+> > **[**Discord**](https://discord.io/plexidev)**  /  
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---
