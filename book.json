@@ -1,9 +1,14 @@
 {
-    "plugins": [ "theme-flowai", "custom-favicon" ],
+    "plugins": [ "scripts", "theme-flowai", "custom-favicon" ],
     "pluginsConfig": {
         "favicon": "favicon.ico"
     },
     "styles": {
-        "website": "styles/website.css"
+        "website": "./styles/website.css"
+    },
+    "scripts": {
+        "files": [
+            "./myscript.js"
+        ]
     }
 }
