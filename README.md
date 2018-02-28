@@ -4,12 +4,6 @@ _This package is meant to provide an easy way to create and use a database, **al
 
 ---
 
-**Currently updating this page, here is the old documentation i'm moving here:**
-
-Quick.db
-
-========
-
 &lt;div align="center"&gt;
 
 ```
@@ -27,10 +21,6 @@ Quick.db
 \*\*Note:\*\* This package is under development and will be updated frequently.
 
 This package is meant to provide an easy way to create and use a database, \*\*all data is stored persistently\*\*, and comes with a \*\*queue system to prevent database locking\*\*.
-
-\*Over \*\*133\*\* public programs use \*\*Quick.db\*\* as a dependent!\* \[Source\]\([https://github.com/TrueXPixels/quick.db/network/dependents\](https://github.com/TrueXPixels/quick.db/network/dependents%29\)
-
-\*\*Want to provide feedback to help improve \*Quick.db\*?\*\* \[Click Here!\]\([https://goo.gl/forms/KgjhQdWrztUfwHLB2\](https://goo.gl/forms/KgjhQdWrztUfwHLB2%29\)
 
 ---
 
