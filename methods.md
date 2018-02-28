@@ -1,6 +1,6 @@
 ### .set\(ID, data,_ \[options\]_\) {#set}
 
-> **Input:            
+> **Input:              
 >    **ID -&gt; String  
 >    data -&gt; Any \(obj, array, number, string, etc.  
 >    _options -&gt; Object **\(optional\)**_  
