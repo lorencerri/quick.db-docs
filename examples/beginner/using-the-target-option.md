@@ -70,7 +70,7 @@ db.set('guild', '9999', { target: '.owner.discrim' })
 
 // This is an example of fetching the owners discrim
 db.fetch('guild', { target: '.owner.discrim' }).then(i => {
-    console.log(i); // '0001'
+    console.log(i); // '9999'
 })
 
 // We can also add 100 to primaryChannel.members
@@ -86,7 +86,7 @@ db.add('guild', 100, { target: '.primaryChannel.members' }).then(i => {
 ```
 owner: {
     username: 'TrueXPixels',
-    discrim: '0001'
+    discrim: '9999'
 },
 primaryChannel: {
     name: 'General',
