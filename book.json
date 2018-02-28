@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-faq" ],
+    "plugins": [ "theme" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
