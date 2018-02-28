@@ -1,7 +1,8 @@
 {
-    "plugins": [ "theme-december" ],
+    "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
+            "theme": "dark",
             "languages": [
                 {
                     "lang": "js",
