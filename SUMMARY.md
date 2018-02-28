@@ -21,4 +21,5 @@
 * [.fetch\(ID\)](fetchid.md)
 * [.delete\(ID\)](deleteid.md)
 * [.add\(ID, number\)](addid-number.md)
+* [.subtract\(ID, number\)](subtractid-number.md)
 
