@@ -1,3 +1,7 @@
 .book-summary-logo {
     display: none;
+    width: 0px;
+    height: 0px;
+    resize: both;
+    overflow: auto;
 }
