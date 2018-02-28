@@ -8,6 +8,8 @@
 
 [**Projects Using Quick.db**](/projects-using-quickdb.md)** **- _List of projects using quick.db_
 
+[**Changelog**](/changelog.md)_** **- List of recent updates for quick.db_
+
 ---
 
 ###### Examples

@@ -6,6 +6,7 @@
 * [Table Of Contents](table-of-contents.md)
 * [Frequently Asked Questions](frequently-asked-questions.md)
 * [Projects Using Quick.db](projects-using-quickdb.md)
+* [Changelog](changelog.md)
 
 ## Examples
 
