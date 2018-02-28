@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-bandwith" ],
+    "plugins": [ "theme-api" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
