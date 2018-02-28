@@ -1,5 +1,7 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-december",
+            "-fontsettings",
+            "-sharing" ],
     "pluginsConfig": {
         "theme-api": {
             "languages": [
