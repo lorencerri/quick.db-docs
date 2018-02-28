@@ -11,6 +11,7 @@
   * [Storing, Updating, & Fetching A Number](examples/beginner/storing-updating-and-fetching-a-number.md)
 * [Intermediate](examples/intermediate.md)
   * [Storing Item Array & Fetching It](examples/intermediate/storing-item-array-and-fetching-it.md)
+  * [Storing, Updating, & Fetching A Number](examples/intermediate/storing-updating-and-fetching-a-number.md)
 * [Advanced](examples/advanced.md)
 
 ## Methods
