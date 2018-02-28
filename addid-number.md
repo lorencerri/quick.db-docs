@@ -1,7 +1,8 @@
-### .delete\(ID\) {#delete}
+### .add\(ID, number\) {#delete}
 
-> **Input:                  
->    **ID -&gt; String
+> **Input:                    
+>    **ID -&gt; String  
+>    number -&gt; Number
 >
 > **Returns: **Boolean \(If successfully deleted\)
 

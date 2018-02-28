@@ -4,6 +4,7 @@
 
 * [Introduction](README.md)
 * [Table Of Contents](table-of-contents.md)
+* [Frequently Asked Questions](frequently-asked-questions.md)
 
 ## Examples
 
@@ -19,4 +20,5 @@
 * [.set\(ID, data\)](methods.md)
 * [.fetch\(ID\)](fetchid.md)
 * [.delete\(ID\)](deleteid.md)
+* [.add\(ID, number\)](addid-number.md)
 
