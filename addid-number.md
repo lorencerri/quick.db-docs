@@ -1,8 +1,9 @@
-### .add\(ID, number\) {#add}
+### .add\(ID, number, _\[options\]_\) {#add}
 
-> **Input:                                    
+> **Input:                                        
 >    **ID -&gt; String  
->    number -&gt; Number
+>    number -&gt; Number  
+>    _options -&gt; Object **\(optional\)**_
 >
 > **Returns: **Promise&lt;updatedObject&gt;
 
@@ -26,6 +27,25 @@ db.fetch('uniqueID').then(i => {
 ```
 
 ---
+
+#### Options
+
+> * **Parameter: **target
+> * **Type: **String
+> * **Default: **_none  _
+> * **Description: **Adds to the number in the target instead of the entire object.
+> * **Example:**
+
+```js
+let data = { username: 'TrueXPixels', balance: 100 };
+db.set('uniqueID', data).then(i => {
+    console.log(i); // { username: 'TrueXPixels', balance: 100 }
+})
+
+db.add('uniqueID', 50, { target: '.balance' }).then(i => {
+    console.log(i); // 150
+})
+```
 
 
 

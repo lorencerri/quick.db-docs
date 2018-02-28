@@ -4,6 +4,10 @@
 
 ---
 
+**v5.3.1**
+
+* Added { target: 'tree' } option to .add\(\) & .subtract\(\)
+
 **v5.3.0**
 
 * Added function options
@@ -13,7 +17,7 @@
 
 **v5.2.3**
 
-*  .push\(\) function now automatically creates an array when target is empty, instead of returning an error.
+* .push\(\) function now automatically creates an array when target is empty, instead of returning an error.
 
 
 

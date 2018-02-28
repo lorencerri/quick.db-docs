@@ -1,7 +1,8 @@
-### .fetch\(ID\) {#fetch}
+### .fetch\(ID, _\[options\]_\) {#fetch}
 
-> **Input:        
->    **_none_
+> **Input:              
+>    **ID -&gt; String  
+>    _options -&gt; Object **\(optional\)**_
 >
 > **Returns: **Promise&lt;data&gt;
 
@@ -17,6 +18,25 @@ db.fetch('uniqueID').then(i => {
 ```
 
 ---
+
+#### Options
+
+> * **Parameter: **target
+> * **Type: **String
+> * **Default: **_none  _
+> * **Description: **Fetches the data from the target instead of the entire object.
+> * **Example:**
+
+```js
+let data = { username: 'TrueXPixels', discrim: '0001' };
+db.set('uniqueID', data).then(i => {
+    console.log(i); // { username: 'TrueXPixels', discrim: '0001' }
+})
+
+db.fetch('uniqueID', { target: '.discrim' }).then(i => {
+    console.log(i); // '0001'
+})
+```
 
 
 

@@ -1,6 +1,6 @@
 ### .subtract\(ID, number\) {#subtract}
 
-> **Input:                                        
+> **Input:                                          
 >    **ID -&gt; String  
 >    number -&gt; Number
 >
@@ -26,6 +26,25 @@ db.fetch('uniqueID').then(i => {
 ```
 
 ---
+
+#### Options
+
+> * **Parameter: **target
+> * **Type: **String
+> * **Default: **_none  _
+> * **Description: **Subtracts from the number in the target instead of the entire object.
+> * **Example:**
+
+```js
+let data = { username: 'TrueXPixels', balance: 100 };
+db.set('uniqueID', data).then(i => {
+    console.log(i); // { username: 'TrueXPixels', balance: 100 }
+})
+
+db.subtract('uniqueID', 50, { target: '.balance' }).then(i => {
+    console.log(i); // 50
+})
+```
 
 
 
