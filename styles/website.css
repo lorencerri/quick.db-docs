@@ -1,3 +1,8 @@
+.book-summary-logo {
+    width: 0px;
+    height: 0px;
+}
+
 .book-summary-logo img{
     display: none;
 }
