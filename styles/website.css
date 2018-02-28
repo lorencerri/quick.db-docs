@@ -5,3 +5,7 @@
     resize: both;
     overflow: auto;
 }
+
+.header {
+    display: none;
+}
