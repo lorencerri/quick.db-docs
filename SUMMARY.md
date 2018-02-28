@@ -22,4 +22,5 @@
 * [.delete\(ID\)](deleteid.md)
 * [.add\(ID, number\)](addid-number.md)
 * [.subtract\(ID, number\)](subtractid-number.md)
+* [.push\(ID, data\)](pushid-data.md)
 
