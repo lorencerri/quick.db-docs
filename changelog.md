@@ -4,5 +4,5 @@
 
 ---
 
-
+**v5.2.3** - .push\(\) function now automatically creates an array when target is empty, instead of returning an error.
 
