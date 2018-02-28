@@ -1,5 +1,5 @@
 {
-    "plugins": [ "theme-api" ],
+    "plugins": [ "theme-bandwith" ],
     "pluginsConfig": {
         "theme-api": {
             "theme": "dark",
