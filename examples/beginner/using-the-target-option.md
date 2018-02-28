@@ -37,7 +37,6 @@ db.fetch('userData', { target: '.balance' }).then(i => {
     console.log(i); // 125
 })
 
-
 // NOTE: target also supports nested objects! Example:
 let guildObj = {
     owner: {
