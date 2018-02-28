@@ -1,4 +1,4 @@
-### Storing, Updating & Fetching A Number
+### Storing, Updating & Fetching A Number {#example1}
 
 _This example takes a starting number, then changes it a bit, and finally fetches it later on._
 
