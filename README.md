@@ -18,7 +18,7 @@ npm install quick.db
 var db = require('quick.db')
 ```
 
-[_v3.x/v4.x to v5.x Migration Guide_](https://github.com/TrueXPixels/quick.db/quickdb/MIGRATION.md)
+[_v3.x/v4.x to v5.x Migration Guide_](https://github.com/TrueXPixels/quick.db/blob/quickdb/MIGRATION.md)
 
 #### View [Table Of Contents](/table-of-contents.md)
 
@@ -26,8 +26,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /        
-> > **[**Discord**](https://discord.io/plexidev)**  /        
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /          
+> > **[**Discord**](https://discord.io/plexidev)**  /          
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---
