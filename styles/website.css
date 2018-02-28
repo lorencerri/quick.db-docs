@@ -1,10 +1,9 @@
 .book-summary-logo {
-    background: none;
     display: none;
     width: 0px;
     height: 0px;
     resize: both;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .header {
