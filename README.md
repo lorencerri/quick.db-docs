@@ -8,13 +8,13 @@ _This package is meant to provide an easy way to create and use a database, **al
 
 **Installation**
 
-```
+```js
 npm install quick.db
 ```
 
 **Require Package**
 
-```
+```js
 var db = require('quick.db')
 ```
 
@@ -26,8 +26,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /    
-> > **[**Discord**](https://discord.io/plexidev)**  /    
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /      
+> > **[**Discord**](https://discord.io/plexidev)**  /      
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---
