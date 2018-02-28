@@ -2,5 +2,10 @@
     "plugins": [ "theme-flowai", "custom-favicon" ],
     "pluginsConfig": {
         "favicon": "favicon.ico"
+        "theme-flowai": {
+            "styles": {
+        "website": "styles/website.css"
+            }
+        }
     }
 }
