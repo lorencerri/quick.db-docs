@@ -12,7 +12,7 @@ Define a variable `x` equal to 10.
 
 {% initial %}
 
-var x =
+var x = 10;
 
 
 
@@ -24,7 +24,7 @@ var x = 10;
 
 {% validation %}
 
-assert(x == 10);
+assert(x === 10);
 
 
 
