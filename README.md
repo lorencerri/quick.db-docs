@@ -2,6 +2,8 @@
 
 _This package is meant to provide an easy way to create and use a database, **all data is stored persistently**, and comes with a **queue system to prevent database locking.**_
 
+_**Want to provide feedback or suggestions on Quick.db? **_[_**Click Here!**_](https://docs.google.com/forms/d/e/1FAIpQLSeggzYaYjg31bEmIkrKHEJ3-q-RC7KFxmmKQXs_c4tpnc5ctA/viewform?usp=send_form)
+
 ---
 
 **Note: **_This package is under development and will be updated frequently._
@@ -26,8 +28,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /          
-> > **[**Discord**](https://discord.io/plexidev)**  /          
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /            
+> > **[**Discord**](https://discord.io/plexidev)**  /            
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---

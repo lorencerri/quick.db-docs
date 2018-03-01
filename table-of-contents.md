@@ -14,9 +14,9 @@
 
 ###### Examples
 
-[**Storing, Updating, & Fetching A Number**](/examples/storing-updating-and-fetching-a-number.md) - _This example takes a starting number, then changes it a bit, and finally fetches it later on._
+[**Beginner**](/examples/beginner.md) - _These are for users with little no no experience with Quick.db or Node.js_
 
-[**Storing Item Arrays & Fetching It**](/examples/storing-and-fetching-objects.md) - _This example stores data in an array, then fetches them. _
+[**Advanced**](/examples/intermediate.md) - _These are for users with some experience with Quick.db and quite a bit of experience with Node.js_
 
 ---
 
