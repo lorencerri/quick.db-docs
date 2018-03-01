@@ -6,7 +6,7 @@ _This page has a collection of exercises you can complete to learn about quick.d
 
 {% exercise %}
 
-Define a variable \`x\` equal to 10.
+Define a variable `x` equal to 10.
 
 
 
@@ -24,7 +24,7 @@ var x = 10;
 
 {% validation %}
 
-assert\(x == 10\);
+assert(x == 10);
 
 
 
