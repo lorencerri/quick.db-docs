@@ -4,6 +4,11 @@
 
 ---
 
+**v5.3.6**
+
+* Fixes .add\(\) & .subtract\(\)
+* New error messages added using a level system for better debugging
+
 **v5.3.1**
 
 * Added { target: 'tree' } option to .add\(\) & .subtract\(\)
