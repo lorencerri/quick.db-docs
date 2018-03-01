@@ -14,6 +14,12 @@ Define a variable `x` equal to 10.
 
 var x = 10;
 
+// Comment
+
+// Hello World
+
+// Hello!
+
 
 
 {% solution %}
