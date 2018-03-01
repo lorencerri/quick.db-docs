@@ -1,5 +1,5 @@
 {
-    "plugins": [ "infinitescroll", "theme-flowai", "custom-favicon" ],
+    "plugins": [ "exercises", "theme-flowai", "custom-favicon" ],
     "pluginsConfig": {
         "favicon": "favicon.ico"
     },
