@@ -1,7 +1,12 @@
 {
-    "plugins": [ "npmsearchlist", "exercises", "theme-flowai", "custom-favicon" ],
+    "plugins": [ "exercises", "theme-flowai", "custom-favicon" ],
     "pluginsConfig": {
-        "favicon": "favicon.ico"
+        "favicon": "favicon.ico",
+        "custom-js-css": {
+            "js": [
+          "./script.js"
+            ]
+        }
     },
     "styles": {
         "website": "./styles/website.css"
