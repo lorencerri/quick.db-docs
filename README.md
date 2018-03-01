@@ -28,8 +28,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /                
-> > **[**Discord**](https://discord.io/plexidev)**  /                
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /                  
+> > **[**Discord**](https://discord.io/plexidev)**  /                  
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---
@@ -43,6 +43,28 @@ var db = require('quick.db')
 
 ---
 
+#### Example 
+
+> _All data in quick.db is stored **persistently** in a database. Here is an example of setting an object in the database, then fetching parts & the full object._
+
+```js
+const db = require('quick.db');
+
+// Setting a FULL object
+db.set('userInfo', { part1: 'Hello', part2: 'World!' }).then( i => console.log(i))
+// -> { part1: 'Hello', part2: 'World!' }
+
+// Fetching only PARTS of the object
+db.fetch('userInfo', { target: '.part1' }).then( i => console.log(i)) // -> 'Hello'
+db.fetch('userInfo', { target: '.part2' }).then( i => console.log(i)) // -> 'World!'
+
+// Fetch FULL object
+db.fetch('userInfo').then( i => console.log(i))
+// -> { part1: 'Hello', part2: 'World!' }
+```
+
+---
+
 > #### Contributors
 >
 > > TrueXPixels  
@@ -50,6 +72,8 @@ var db = require('quick.db')
 > > Morfixx  
 > > ExtasyMonst4  
 > > [_Plexi Development..._](https://discord.io/plexidev)
+
+
 
 
 
