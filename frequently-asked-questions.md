@@ -20,5 +20,11 @@ Not yet, although it was designed to be easy to learn, most can be found through
 
 Okay, well it wasn't actually frequently asked but I wanted to plug it anyways. Yes! I do have one here: [https://www.youtube.com/c/TrueXPixels](https://www.youtube.com/c/TrueXPixels)
 
+> Do you have any other packges?
+
+Yes I do, here is a list of them:
+
+{% npmsearchlist "q=author:truexpixels" %}{% endnpmsearchlist %}
+
 
 
