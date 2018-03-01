@@ -5,10 +5,5 @@
     },
     "styles": {
         "website": "./styles/website.css"
-    },
-    "scripts": {
-        "files": [
-            "./script.js"
-        ]
     }
 }
