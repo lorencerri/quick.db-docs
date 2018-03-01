@@ -8,6 +8,7 @@
 * [Projects Using Quick.db](projects-using-quickdb.md)
 * [Changelog](changelog.md)
 * [Tutorials](tutorials.md)
+* [Exercises ](exercises.md)
 
 ## Examples
 
