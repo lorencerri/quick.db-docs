@@ -6,7 +6,7 @@ _**Want to provide feedback or suggestions on Quick.db? **_[_**Click Here!**_](h
 
 ---
 
-**Note: **_This package is under development and will be updated frequently._
+_**Note:** This package is under development and will be updated frequently._ **Current Version: 5.3.6**
 
 **Installation**
 
@@ -28,8 +28,8 @@ var db = require('quick.db')
 
 > #### External Links:
 >
-> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /            
-> > **[**Discord**](https://discord.io/plexidev)**  /            
+> > [**NPM Page**](https://www.npmjs.com/package/quick.db)**  /                
+> > **[**Discord**](https://discord.io/plexidev)**  /                
 > > **[**Github**](https://github.com/TrueXPixels/quick.db)
 
 ---
