@@ -1,5 +1,5 @@
 {
-    "plugins": [ "npmsearchlist", "theme-flowai", "custom-favicon" ],
+    "plugins": [ "theme-flowai", "custom-favicon" ],
     "pluginsConfig": {
         "favicon": "favicon.ico"
     },
