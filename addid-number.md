@@ -1,11 +1,13 @@
 ### .add\(ID, number, _\[options\]_\) {#add}
 
-> **Input:                                            
+> **Input:                                              
 >    **ID -&gt; String  
 >    number -&gt; Number  
 >    _options -&gt; Object **\(optional\)**_
 >
 > **Returns: **Promise&lt;updatedObject&gt;
+>
+> **NOTE:** If target is not defined, it will automatically create a number entry and add the specific amount.
 
 ```js
 let startingNumber = 0;
