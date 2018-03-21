@@ -8,6 +8,6 @@
 
 ---
 
-_Over **144 **public programs use **Quick.db** as a dependent!**           
+_Over **201 **public programs use **Quick.db** as a dependent!**             
 **_[_**https://github.com/TrueXPixels/quick.db/network/dependents**_](https://github.com/TrueXPixels/quick.db/network/dependents\)
 
