@@ -4,6 +4,10 @@
 
 ---
 
+**v5.5.0**
+
+* This update changes the way the database system is handled, you can now send thousands of database requests in seconds. Thank you to @Zelak for helping me with this update!
+
 **v5.3.6**
 
 * Fixes .add\(\) & .subtract\(\)
