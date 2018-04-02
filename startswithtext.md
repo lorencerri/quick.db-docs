@@ -1,4 +1,4 @@
-### .startsWith\(text, options\) {#fetch}
+### .startsWith\(text, _\[options\]_\) {#fetch}
 
 > **Input**:  
 >    text -&gt; string  
@@ -35,8 +35,6 @@ db.startsWith('userBalance', { sort: '.data'}).then(i => {
 ```
 
 #### Example Using "Sort"
+
 ![Imgur](https://i.imgur.com/glWkdWI.png)
-
-
-
 
