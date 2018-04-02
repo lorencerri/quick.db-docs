@@ -27,4 +27,5 @@
 * [.add\(ID, number\)](addid-number.md)
 * [.subtract\(ID, number\)](subtractid-number.md)
 * [.push\(ID, data\)](pushid-data.md)
+* [.createWebview\(password, port\)](createwebviewpassword-port.md)
 
