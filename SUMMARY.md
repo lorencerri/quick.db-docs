@@ -21,11 +21,13 @@
 
 ## Methods
 
+* [.createWebview\(password, port\)](createwebviewpassword-port.md)
 * [.set\(ID, data\)](methods.md)
 * [.fetch\(ID\)](fetchid.md)
+* [.fetchAll\(\)](fetchall.md)
+* [.startsWith\(text\)](startswithtext.md)
 * [.delete\(ID\)](deleteid.md)
 * [.add\(ID, number\)](addid-number.md)
 * [.subtract\(ID, number\)](subtractid-number.md)
 * [.push\(ID, data\)](pushid-data.md)
-* [.createWebview\(password, port\)](createwebviewpassword-port.md)
 
