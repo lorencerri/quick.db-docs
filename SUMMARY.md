@@ -22,6 +22,7 @@
 ## Methods
 
 * [.createWebview\(password, port\)](createwebviewpassword-port.md)
+* [new db.table\(name\)](new-dbtablepass-port.md)
 * [.set\(ID, data\)](methods.md)
 * [.fetch\(ID\)](fetchid.md)
 * [.fetchAll\(\)](fetchall.md)
@@ -29,5 +30,5 @@
 * [.delete\(ID\)](deleteid.md)
 * [.add\(ID, number\)](addid-number.md)
 * [.subtract\(ID, number\)](subtractid-number.md)
-* [.push\(ID, data\)](pushid-data.md)
+* new db.table\(pass, port\)
 
