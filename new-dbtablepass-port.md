@@ -40,6 +40,6 @@ db.fetch('main').then(i => {
 
 #### **Example:**
 
-***You can view the output of this [here](https://quickdb-latest.glitch.me/data/?password=pass111).***
+***You can view the output of this [here](https://quickdb-latest.glitch.me/data/?password=pass111) in the WebViewer.***
 ![Imgur](https://i.imgur.com/vpcp5Pj.png)
 
