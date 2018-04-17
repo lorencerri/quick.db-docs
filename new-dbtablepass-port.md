@@ -13,9 +13,9 @@ const db = require('quick.db');
 const userInfo = new db.table('UserInfo');
 
 /*
-// The userInfo now works exactly the same as 'db'
-// Although, now all data is separate from other tables
-*
+ The userInfo now works exactly the same as 'db'
+ Although, now all data is separate from other tables
+*/
 
 // Setting Number - userInfo Table
 userInfo.set('main', 5);
