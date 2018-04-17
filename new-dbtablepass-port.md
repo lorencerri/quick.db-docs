@@ -1,6 +1,6 @@
 ### new db.table\(name\) {#push}
 
-> **Input:                  
+> **Input:                    
 >    **name -&gt; String
 >
 > **Returns: **Should be stored in a variable
@@ -40,6 +40,6 @@ db.fetch('main').then(i => {
 
 #### **Example:**
 
-***You can view the output of this [here](https://quickdb-latest.glitch.me/data/?password=pass111) in the WebViewer.***
+_**You can view the output of this **_[_**here**_](https://quickdb-latest.glitch.me/data/?password=pass111)_** in the WebViewer.**_  
 ![Imgur](https://i.imgur.com/vpcp5Pj.png)
 
