@@ -20,7 +20,7 @@ npm install quick.db
 var db = require('quick.db')
 ```
 
-[_v3.x/v4.x to v5.x Migration Guide_](https://github.com/Plexi-Development/quick.db/blob/quickdb/MIGRATION.md)
+[_v3.x/v4.x to v5.x Migration Guide_](https://github.com/Plexi-Development/quick.db/blob/quickdb/docs/MIGRATION.md)
 
 #### View [Table Of Contents](/table-of-contents.md)
 
