@@ -9,3 +9,5 @@ We have over **44208 **downloads on **NPM**!
 Interested in our **verified** Discord server with over **3200 **members?
 [_**https://discord.gg/plexidev**_](https://discord.gg/plexidev)
 
+We're open for contributions, check out our **GitHub**!
+[**_https://github.com/TrueXPixels/quick.db_**](https://github.com/TrueXPixels/quick.db)
