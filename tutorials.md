@@ -1,6 +1,6 @@
 ## Quick.db Tutorials
 
-_Tutorials, User Examples, etc will be added here. If you would like to submit your own feel free to message @TrueXPixels in Discord!_
+_Interested in posting an example of you using the project? DM **@TrueXPixels** on Discord to get added here! (you can post your social media links with the video/post)_
 
 ---
 
