@@ -3,10 +3,14 @@
 ##### Methods
 
 * [new db.table\(name\)](/new-dbtablepass-port.md)
-* 
-
-
-
+* [.add\(key, number, \[options\]\) -&gt; updatedRow](#add-method)
+* [.all\(\) -&gt; array](#all-method)
+* [.delete\(key, \[options\]\) -&gt; boolean](#delete)
+* [.get\(key, \[options\]\) -&gt; row](#get)
+* [.has\(key, \[options\]\) -&gt; boolean](#has)
+* [.push\(key, element, \[options\]\) -&gt; updatedRow](#push)
+* [.set\(key, data, \[options\]\) -&gt; updatedRow](#set-method)
+* [.subtract\(key, number, \[option\]\) -&gt; updatedRow](#subtract)
 
 ---
 
@@ -23,7 +27,7 @@ db.get('myBalance') // -> null
 
 ---
 
-##### .add\(_key_, _number, \[options\]_\) -&gt; updatedRow {#add}
+##### .add\(_key_, _number, \[options\]_\) -&gt; updatedRow {#add-method}
 
 This function adds a number to a key in the database. \(If no existing number, it will add to 0\)
 
@@ -157,7 +161,7 @@ db.push('myUser.items', 'Dagger')
 
 ---
 
-##### **.set\(**_**key**_**, **_**data**_**, **_**\[options\]**_**\) -&gt; updatedRow** {#set}
+##### **.set\(**_**key**_**, **_**data**_**, **_**\[options\]**_**\) -&gt; updatedRow** {#set-method}
 
 This function sets new data based on a key in the database. \(When using dot notation, if the object doesn't exist it'll create one\)
 
