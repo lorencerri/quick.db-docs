@@ -4,7 +4,6 @@
 
 * [Introduction](README.md)
 * [Documentation](table-of-contents.md)
-* [Frequently Asked Questions](frequently-asked-questions.md)
 * [Projects Using Quick.db](projects-using-quickdb.md)
 * [Tutorials](tutorials.md)
 
