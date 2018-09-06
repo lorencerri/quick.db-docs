@@ -4,7 +4,7 @@
 
 * [Introduction](README.md)
 * [Documentation](table-of-contents.md)
-* [Projects Using Quick.db](projects-using-quickdb.md)
+* [More Information](projects-using-quickdb.md)
 * [Tutorials](tutorials.md)
 
 ## Examples
