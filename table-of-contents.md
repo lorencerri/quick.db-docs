@@ -1,36 +1,206 @@
-### Table Of Contents {#table}
+### Documentation {#table}
+
+##### Methods
+
+* [new db.table\(name\)](/new-dbtablepass-port.md)
+* 
+
+
+
 
 ---
 
-> ##### Overview
+##### **new .table\(**_**name**_**\)** {#table}
 
-[**Frequently Asked Questions**](/frequently-asked-questions.md) - _List of frequently asked questions_
+This function creates a new table, allowing you to separate your data while being used exactly the same.
 
-[**Projects Using Quick.db**](/projects-using-quickdb.md)** **- _List of projects using quick.db_
-
-[**Changelog**](/changelog.md)_** **- List of recent updates for quick.db_
-
----
-
-> ##### Examples
-
-[**Beginner**](/examples/beginner.md) - _These are for users with little no no experience with Quick.db or Node.js_
-
-[**Advanced**](/examples/intermediate.md) - _These are for users with some experience with Quick.db and quite a bit of experience with Node.js_
+```js
+var economy = new db.table('economy')
+economy.set('myBalance', 500) // -> 500
+economy.get('myBalance') // -> 500
+db.get('myBalance') // -> null
+```
 
 ---
 
-> ##### Methods
+##### .add\(_key_, _number, \[options\]_\) -&gt; updatedRow {#add}
 
-[**.set\(uniqueID, data\)**](/methods.md) - _Sets data to the uniqueID you supply, data can be anything: objects, arrays, strings, numbers, etc._
+This function adds a number to a key in the database. \(If no existing number, it will add to 0\)
 
-[**.fetch\(uniqueID\)**](/fetchid.md) - _Fetches the data using the uniqueID you assigned earlier_
+```js
+db.get('myBalance')
+// -> 500
 
-[**.delete\(ID\)**](/deleteid.md) - _Removes the data associated with ID supplied_
+db.add('myBalance', 250)
+// -> 750
+```
 
-[**.add\(ID, number\)**](/addid-number.md)** **- _Adds the target amount to an existing number_
+_Also allows for accessing properties using dot notation_
 
-[**.subtract\(ID, number\)**](/subtractid-number.md) - _Subtracts the target amount from an existing number_
+```js
+db.get('myUser')
+// -> { guild: null, balance: 500 }
 
-[**.push\(ID, data\)**](/pushid-data.md) - Pushes an item to a pre-existing array in the database
+db.add('myUser.balance', 250)
+// -> { guild: null, balance: 750 }
+```
+
+---
+
+##### **.all\(\) -&gt; array** {#all-method}
+
+This function returns the entire active table as an array.
+
+```js
+db.all()
+// -> [Array]
+```
+
+---
+
+##### **.delete\(**_**key**_**, **_**\[options\]**_**\) -&gt; boolean** {#delete}
+
+This function deletes the specified key. Returns if it was a success or not.
+
+```js
+db.get('myData')
+// -> "Hello World!"
+
+db.delete('myData')
+// true
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.get('myUser')
+// -> { guild: null, balance: 500 }
+
+db.delete('myUser.balance')
+// -> true
+
+db.get('myUser')
+// -> { guild: null }
+```
+
+---
+
+##### **.get\(**_**key**_**, **_**\[options\]**_**\) -&gt; row** {#get}
+
+This function returns data from a row based on the key. **Alias: .fetch\(\)**
+
+```js
+db.set('myData', 'Hello World!')
+// -> 'Hello World!'
+
+db.get('myData')
+// -> 'Hello World!'
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.set('myUser', { guild: 'Plexi', balance: 500 })
+// -> { guild: 'Plexi', balance: 500 }
+
+db.get('myUser.guild') // -> "Plexi"
+db.get('myUser.balance') // -> 500
+db.get('myUser.notAProp') // -> undefined
+```
+
+---
+
+##### **.has\(**_**key**_**,**_** \[options\]**_**\) -&gt; boolean** {#has}
+
+This function returns a boolean based on whether an element or property exists. **Alias: .exists\(\)**
+
+```js
+db.set('myData', 'Hello World!')
+// -> 'Hello World!'
+
+db.has('myData') // -> true
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.set('myUser', { guild: 'Plexi', balance: 500 })
+// -> { guild: 'Plexi', balance: 500 }
+
+db.has('myUser.guild') // -> true
+db.has('myUser.items') // false
+```
+
+---
+
+##### **.push\(**_**key**_**, **_**element**_**, **_**\[options\]**_**\) -&gt; updatedRow** {#push}
+
+This function will push into an array in the database based on the key. \(If no existing array, it will create one\)
+
+```js
+db.set('myItems', ['Sword', 'Lock'])
+// -> ['Sword', 'Lock']
+
+db.push('myItems', 'Dagger')
+// -> ['Sword', 'Lock', 'Dagger']
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.set('myUser', { balance: 500, items: ['Watch', 'Sword'] })
+// -> { balance: 500, items: ['Watch', 'Sword'] }
+
+db.push('myUser.items', 'Dagger')
+// -> { balance: 500, items: ['Watch', 'Sword', 'Dagger'] }
+```
+
+---
+
+##### **.set\(**_**key**_**, **_**data**_**, **_**\[options\]**_**\) -&gt; updatedRow** {#set}
+
+This function sets new data based on a key in the database. \(When using dot notation, if the object doesn't exist it'll create one\)
+
+```js
+db.set('myData', 'Hello World!') // -> 'Hello World!'
+db.set('myData', 50) // -> 50
+db.set('myData', { foo: 'bar' }) // -> { foo: 'bar' }
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.get('myUser') // -> null
+
+db.set('myUser.guild.rank', 'Mage') 
+// -> { guild: { rank: 'Mage' } }
+
+db.set('myUser.balance', 500) 
+// -> { guild: { rank: 'Mage' }, balance: 500 }
+
+db.set('myUser.guild.rank', 'Warrior') 
+// -> { guild: { rank: 'Warrior' }, balance: 500 }
+```
+
+---
+
+##### **.subtract\(**_**key**_**,**_** number**_**, **_**\[option\]**_**\) -&gt; updatedRow** {#subtract}
+
+This function subtracts a number to a key in the database. \(If no existing number, it will subtract from 0\)
+
+```js
+db.get('myBalance') // -> 500
+db.subtract('myBalance', 200) // -> 300
+```
+
+_Also allows for accessing properties using dot notation_
+
+```js
+db.get('myUser', { league: 'Gold', XP: 500 }) // -> { league: 'Gold', XP: 500 }
+db.subtract('myUser.XP', 200) // -> { league: 'Gold', XP: 300 }
+```
+
+---
+
+
 
