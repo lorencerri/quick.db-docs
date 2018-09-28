@@ -1,13 +1,14 @@
 ### More Information
 
-_Over **2854 **public programs use **Quick.db** as a dependent!**    
+_Over **3516 **public programs use **Quick.db** as a dependent!**      
 **_[_**https://github.com/TrueXPixels/quick.db/network/dependents**_](https://github.com/TrueXPixels/quick.db/network/dependents\)
 
-We have over **44208 **downloads on **NPM**!  
+We have over **60144 **downloads on **NPM**!  
 [_**https://npm-stat.com/charts.html?package=quick.db**_](https://npm-stat.com/charts.html?package=quick.db)
 
-Interested in our **verified** Discord server with over **3200 **members?
+Interested in our **verified** Discord server with over **3422 **members?  
 [_**https://discord.gg/plexidev**_](https://discord.gg/plexidev)
 
-We're open for contributions, check out our **GitHub**!
-[**_https://github.com/TrueXPixels/quick.db_**](https://github.com/TrueXPixels/quick.db)
+We're open for contributions, check out our **GitHub**!  
+[_**https://github.com/TrueXPixels/quick.db**_](https://github.com/TrueXPixels/quick.db)
+
