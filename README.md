@@ -61,7 +61,14 @@ db.add('userInfo.balance', 500)
 
 // Fetching individual properties
 db.get('userInfo.balance') // -> 1000
-db.get('userInfo.items') // ['Sword', 'Watch']
+db.get('userInfo.items') // -> ['Sword', 'Watch']
+
+// Showing dot notation setting
+db.set('userInfo.difficulty', 'Hard')
+// -> { difficulty: 'Hard', items: ['Sword', 'Watch'], balance: 1000 }
+
+db.get('userInfo.difficulty') // -> 'Hard'
+
 ```
 
 ---
