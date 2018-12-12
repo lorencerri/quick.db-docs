@@ -191,6 +191,62 @@ db.set('myUser.guild.rank', 'Warrior')
 
 ##### **.startsWith\(**_**str**_**, **_**\[options\]**_**\) -&gt; array** {#starts-with}
 
+This function fetches everything that starts with a certain string. Allows you to sort the data as well.
+
+```js
+/* In this example, assume the data is stored as follows:
+{ ID: 'userInfo_1', data: { username: 'User', balance: 9000 } }
+{ ID: 'userInfo_2', data: { username: 'User1', balance: 500 } }
+{ ID: 'userInfo_3', data: { username: 'User2', balance: 10 } }
+{ ID: 'userInfo_4', data: { username: 'User3', balance: 4000 } }
+{ ID: 'userInfo_5', data: { username: 'User4', balance: 300 } }
+{ ID: 'userInfo_6', data: { username: 'User5', balance: 50 } }
+{ ID: 'userInfo_7', data: { username: 'User6', balance: 9999 } }
+{ ID: 'userInfo_8', data: { username: 'User7', balance: 700 } }
+*/
+
+// NOTE: Sorting is optional.
+db.startsWith('userBalance', { sort: true, sortBy: '.balance' });
+/* Output:
+[ { ID: 'userInfo_7', data: { username: 'User6', balance: 9999 } },
+{ ID: 'userInfo_1', data: { username: 'User', balance: 9000 } },
+{ ID: 'userInfo_4', data: { username: 'User3', balance: 4000 } },
+{ ID: 'userInfo_8', data: { username: 'User7', balance: 700 } },
+{ ID: 'userInfo_2', data: { username: 'User1', balance: 500 } },
+{ ID: 'userInfo_5', data: { username: 'User4', balance: 300 } },
+{ ID: 'userInfo_6', data: { username: 'User5', balance: 50 } },
+{ ID: 'userInfo_3', data: { username: 'User2', balance: 10 } } ]
+*/
+```
+
+*Another example if the data is not an object*
+```js
+/* In this example, assume the data is stored as follows:
+{ ID: 'userBalance_1', data: 9000 },
+{ ID: 'userBalance_2', data: 500 },
+{ ID: 'userBalance_3', data: 10 },
+{ ID: 'userBalance_4', data: 4000 },
+{ ID: 'userBalance_5', data: 300 },
+{ ID: 'userBalance_6', data: 50 },
+{ ID: 'userBalance_7', data: 10000 },
+{ ID: 'userBalance_8', data: 700 }
+*/
+
+// NOTE: Sorting is optional.
+db.startsWith('userBalance', { sort: true });
+/* Output:
+[ { ID: 'userBalance_7', data: 10000 },
+{ ID: 'userBalance_1', data: 9000 },
+{ ID: 'userBalance_4', data: 4000 },
+{ ID: 'userBalance_8', data: 700 },
+{ ID: 'userBalance_2', data: 500 },
+{ ID: 'userBalance_5', data: 300 },
+{ ID: 'userBalance_6', data: 50 },
+{ ID: 'userBalance_3', data: 10 } ]
+*/
+
+```
+
 ---
 
 ##### **.subtract\(**_**key**_**,**_** number**_**, **_**\[option\]**_**\) -&gt; updatedRow** {#subtract}
