@@ -10,7 +10,8 @@
 * [.has\(key, \[options\]\) -&gt; boolean](#has)
 * [.push\(key, element, \[options\]\) -&gt; updatedRow](#push)
 * [.set\(key, data, \[options\]\) -&gt; updatedRow](#set-method)
-* [.subtract\(key, number, \[option\]\) -&gt; updatedRow](#subtract)
+* [.subtract\(key, number, \[options\]\) -&gt; updatedRow](#subtract)
+* [.startsWith\(str, \[options\]\) -&gt; array](#starts-with)
 
 ---
 
@@ -185,6 +186,10 @@ db.set('myUser.balance', 500)
 db.set('myUser.guild.rank', 'Warrior') 
 // -> { guild: { rank: 'Warrior' }, balance: 500 }
 ```
+
+---
+
+##### **.startsWith\(**_**str**_**, **_**\[options\]**_**\) -&gt; array** {#starts-with}
 
 ---
 
