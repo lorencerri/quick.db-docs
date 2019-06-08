@@ -72,7 +72,7 @@ db.get('userInfo.difficulty') // -> 'Hard'
 ```
 
 ---
-#### Sponsored Message:
+#### Our Sponsor:
 
 
 **Need A VPS?** Get started with **Contabo**!
