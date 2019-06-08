@@ -72,6 +72,11 @@ db.get('userInfo.difficulty') // -> 'Hard'
 ```
 
 ---
+#### Sponsored Message:
 
 
+**Need A VPS?** Get started with **Contabo**!
+Up to 60 GB RAM - 10 Cores - Unlimited Traffic 
+**Starting at 3.99€**
 
+[**Click To Learn More & View Prices**](http://www.anrdoezrs.net/click-9103034-12740668)
