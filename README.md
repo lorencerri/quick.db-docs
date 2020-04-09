@@ -76,8 +76,8 @@ db.get('userInfo.difficulty') // -> 'Hard'
 
 <br>
 
-**Need A VPS?** Get started with **Contabo**!  &nbsp
-Up to 60 GB RAM - 10 Cores - Unlimited Traffic  &nbsp
-**Starting at €3.99**  &nbsp
+**Need A VPS?** Get started with **Contabo**!  &nbsp;
+Up to 60 GB RAM - 10 Cores - Unlimited Traffic  &nbsp;
+**Starting at €3.99**  &nbsp;
 
 [**Click To Learn More & View Prices**](http://www.anrdoezrs.net/click-9103034-12740668)
