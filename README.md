@@ -14,14 +14,6 @@ npm install quick.db
 var db = require('quick.db')
 ```
 
-## View [Documentation](overview/docs.md)
-
-> ## External Links:
->
-> [**NPM Page**](https://www.npmjs.com/package/quick.db)   
->  [**GitHub**](https://github.com/Plexi-Development/quick.db)   
->  [**Discord**](https://discord.gg/plexidev)
-
 ## What is Quick.db?
 
 > Quick.db is an easy to use database wrapper for better-sqlite3, it was designed to be simple to let new users who are just getting into development and don't want to worry about learning SQL just quite yet.
