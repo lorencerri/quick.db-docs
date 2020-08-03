@@ -16,7 +16,7 @@ var db = require('quick.db')
 
 ## What is Quick.db?
 
-> Quick.db is an easy to use database wrapper for better-sqlite3, it was designed to be simple to let new users who are just getting into development and don't want to worry about learning SQL just quite yet.
+> Quick.db is an easy-to-use database manager built with better-sqlite3. It's simple by design and perfect for smaller projects where you don't want to set up a separate database server or individuals who may be getting started with programming.
 
 ## Example
 
