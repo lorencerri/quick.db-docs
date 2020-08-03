@@ -1,9 +1,0 @@
-{
-    "plugins": [ "theme-flowai", "custom-favicon" ],
-    "pluginsConfig": {
-        "favicon": "favicon.ico"
-    },
-    "styles": {
-        "website": "./styles/website.css"
-    }
-}
