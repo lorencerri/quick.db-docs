@@ -14,7 +14,7 @@ npm install quick.db
 var db = require('quick.db')
 ```
 
-## View [Documentation](overview/docs.md)
+## View [Documentation](docs.md)
 
 > ## External Links:
 >
